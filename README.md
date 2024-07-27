@@ -2,7 +2,7 @@ Name: K SHIVANI
 Comapny: CODETECH IT SOLUTIONS
 ID: CT6FSWD550
 Domain: Full Stack Web Development
-Duration: 10 June 2024 to 22 July 2024
+Duration: 20 June 2024 to 05 August 2024
 Mentor: NEELA SANTHOSH KUMAR
 
 OVERVIEW OF THE PROJECT
