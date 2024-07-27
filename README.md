@@ -24,6 +24,9 @@ FRONTEND DEVELOPMENT:
 BACKEND DEVELOPMENT:
 1.Backend Framework: Setting up a backend using a framework like Express.js and Creating routes and handlers for different parts of my website.
 
+![sh](https://github.com/user-attachments/assets/6d46103f-ab6b-44f2-9865-6ad8f1c49a73)
 
+![sp](https://github.com/user-attachments/assets/64af5fef-8d0b-42a5-9bc6-b15ac6114f5d)
 
+![scc](https://github.com/user-attachments/assets/1d532967-0505-406f-af25-ceccec60951b)
 
