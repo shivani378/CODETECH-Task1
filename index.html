@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body, h1, h2, h3, h4, h5, h6 {
+            font-family: "Montserrat", sans-serif;
+        }
+        body {
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            position: fixed;
+            width: 250px;
+            height: 100%;
+            background-color: #222;
+            padding-top: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            position: relative;
+        }
+        nav ul li a {
+            display: block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+        nav ul li a:hover {
+            background-color: #333;
+        }
+        nav ul li ul {
+            display: none;
+            position: absolute;
+            left: 250px;
+            top: 0;
+            background-color: #333;
+        }
+        nav ul li:hover ul {
+            display: block;
+        }
+        header {
+            margin-left: 250px;
+            padding: 50px;
+            text-align: center;
+        }
+        section {
+            margin-left: 250px;
+            padding: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#blog">Blog</a>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1> VEMULA LEENA GUPTHA</h1>
+        <h4>Welcome to My Portfolio</h4>
+    </header>
+    <section id="home">
+        <h2>About Me</h2>
+        <hr class="opacity">
+        <p>I am leena vemula, pursuing a B.TECH in CST(Computer Science and Technology) at G.PullaReddy Engineering College
+            .I have completed my intermediate education with cgpa of 9.5  
+            at Narayana junior college and I completed my schooling at Montessori and secured a cgpa of 10.0.
+            This is about my educational background</p>
+            <p>I am an active participant in my college events and I have participated in many of my college 
+                events like Anokha 2.0 which is conducted by IEEE,Technologica which is a hands-on session on data Science, Tedx,Brain wreck,
+                Hackathon HR Fusion conducted by XR Monk which is based on AR.</p>
+            <p>I am obbessed with travelling as we can explore new places,new cultures,new traditions of a particular region
+                and in order to know about yourself I believe travelling is the key as it helps to know more about yourself.
+
+            </p>    
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <hr class="opacity">
+        <p>Coming to projects,</p>
+        <p><li> I did a techinical mini project on diagnostic report in virtual format
+            using vuforia framework and unity hub in augmented reality.</li>
+        </p>
+        <p>
+           <li> I did a non-techincal related project on community serivce based on higher education.</li>
+        </p>
+    </section>
+    <section id="blog">
+        <h2>Blog</h2>
+        <hr class="opacity">
+                <h3>My Journey into Full-Stack Development</h3>
+                <p>Discovering how I began my journey into full-stack development,
+                     the resources I used and I might say the process is quite challenging  in 
+                     the proceess of learning about full stack and by using quite useful reources,online courses,google
+                     I came to know briefly about full-stack,front-end and back-end.</p>
+                <h3>Understanding HTML,CSS and javascipt.</h3>
+                <p>It is quite important to understand HTML,CSS and javascipt as they are the  foundational
+                    technologies for full stack development and I am fond of HTML basics and I learnt about CSS and javascipt by listening to
+                    some videos and searching across various websites in google.
+                    </p>
+            </li>
+    </section>
+    <section id="contact">
+        
+        <div  class="padding-32" id="contact" style="margin-bottom: 64px">
+            <h2>Contact Me</h2>
+            <hr class="opacity">
+            <div class="section">
+                <p><i class="fa-solid fa-phone"></i> Phone: 91******48</p> 
+                <p><i class="fa-solid fa-envelope"></i>Email: leenavemula25@gmail.com</p>
+            </div>
+        </div>
+
+    </section>
+</body>
+</html>
